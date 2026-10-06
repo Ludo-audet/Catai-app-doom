@@ -1,0 +1,37 @@
+{
+  "colors": {
+    "background": "#07111E",
+    "surface": "#0D1927",
+    "border": "#253449",
+    "primary": "#0755FF",
+    "text": "#FFFFFF",
+    "textSecondary": "#ADBBD4"
+  },
+  "typography": {
+    "recommendedStack": "Arial, Helvetica, sans-serif",
+    "headingWeight": 800,
+    "bodyWeight": 400,
+    "bodyMinimumPx": 16,
+    "labelMinimumPx": 14,
+    "note": "La police exacte des PNG generes n est pas une police livree. La pile indiquee est un substitut de mise en oeuvre."
+  },
+  "radii": {
+    "cardPx": 24,
+    "inputPx": 18,
+    "pillPx": 999
+  },
+  "spacingPx": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32
+  ],
+  "iconPx": 24,
+  "referenceScreens": {
+    "width": 941,
+    "height": 1672
+  },
+  "note": "Valeurs de reference proposees, non mesures typographiques exactes des images."
+}

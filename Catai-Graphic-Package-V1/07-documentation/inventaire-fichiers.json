@@ -1,0 +1,327 @@
+[
+  {
+    "path": "01-maquettes-reference/01-accueil.png",
+    "bytes": 1875894,
+    "sha256": "c1d9f5e2af14e722fba58e7861c871ffb58fc83690de49b5728f51ebad326084"
+  },
+  {
+    "path": "01-maquettes-reference/02-partys.png",
+    "bytes": 1705809,
+    "sha256": "92ad5d7edf677e8a17a385dd4b3632f374d43d02aa39697dc173795bb78bdb6b"
+  },
+  {
+    "path": "01-maquettes-reference/03-rencontres.png",
+    "bytes": 1746164,
+    "sha256": "57a747db2aca3565e245f1e31edd0125f845a0ae6bca60e68d7849e476f31daa"
+  },
+  {
+    "path": "01-maquettes-reference/04-detail-party.png",
+    "bytes": 1571592,
+    "sha256": "75b72d7c03b9e8c8529727224cf1c3aa04b161e3adf03c2c4d87706fe441a99b"
+  },
+  {
+    "path": "01-maquettes-reference/05-detail-rencontre.png",
+    "bytes": 1659099,
+    "sha256": "d9c5151a4904ee47306673d463392b9151e38f5c64244c7ad4c624fb36ac2d44"
+  },
+  {
+    "path": "01-maquettes-reference/06-inscription.png",
+    "bytes": 1169155,
+    "sha256": "cf76b02bedf22be3bb37a09aabbe32b8086435dd961b84570316b8492a877995"
+  },
+  {
+    "path": "01-maquettes-reference/07-discussion-traduction.png",
+    "bytes": 1332920,
+    "sha256": "97e39405e8061e4e32adf182191cf24a55b9a028d3d9ac453747e5786299f60c"
+  },
+  {
+    "path": "01-maquettes-reference/08-guides-universitaires.png",
+    "bytes": 1582914,
+    "sha256": "64078bdea9732bc4bc26ad036a928064d0f130502ea7d4981034d612900f169b"
+  },
+  {
+    "path": "02-photos/accueil-party.png",
+    "bytes": 626732,
+    "sha256": "1ea76f5136dfe901e4f2016f8167a9e5317150b1ad52a20a9d2ab81f22609961"
+  },
+  {
+    "path": "02-photos/accueil-rencontre.png",
+    "bytes": 627756,
+    "sha256": "9524b5c2b56c2d63e4cfc4e994f740451cebfa85414db1dac7f7f8c10cacd7e5"
+  },
+  {
+    "path": "02-photos/balade-etudiants.png",
+    "bytes": 119797,
+    "sha256": "4513a8ecf2d5dd38c96a327696eb18a6da9000611c89a01aa61669ae0253d9f3"
+  },
+  {
+    "path": "02-photos/cafe-discussion-miniature.png",
+    "bytes": 92708,
+    "sha256": "44e4a17199e9dde77c23f689f19d63af89e5f84b70197d048bde82714e86be17"
+  },
+  {
+    "path": "02-photos/cafe-nouveaux-detail.png",
+    "bytes": 595044,
+    "sha256": "aa437377fcc61612523bafb4b96e07179ca6a87192cbfa1ab28ed8383c078845"
+  },
+  {
+    "path": "02-photos/cafe-nouveaux-liste.png",
+    "bytes": 470619,
+    "sha256": "c43f629211e4d7dee895057224ec192ad07a711b169955ce0aa26697fb1b640e"
+  },
+  {
+    "path": "02-photos/campus-en-fete.png",
+    "bytes": 119774,
+    "sha256": "a450f7a76665481e264ee398670f6fddffe74f2a7645f67220288694e3bf16be"
+  },
+  {
+    "path": "02-photos/campus-guide.png",
+    "bytes": 547556,
+    "sha256": "bead755d0842edcf97fe89124650924745ff181ca2f8de61137098352fe31484"
+  },
+  {
+    "path": "02-photos/echange-langues.png",
+    "bytes": 121711,
+    "sha256": "04969d7f7a3b673e57e270f3ef08e5a99eb9903e2fd16db8ba28c0a3e2411f08"
+  },
+  {
+    "path": "02-photos/party-bienvenue-detail.png",
+    "bytes": 499126,
+    "sha256": "0e7127f19f5fb37cf6b1d43cb89e8555c6571cdc9c351e1e90e88ea4c9fa474c"
+  },
+  {
+    "path": "02-photos/party-bienvenue-liste.png",
+    "bytes": 465571,
+    "sha256": "bae9ea5d9a7ddb7cce7900ff326c925f2eca30514ccd405ac9a5ee5a6562769d"
+  },
+  {
+    "path": "02-photos/soiree-internationale.png",
+    "bytes": 135618,
+    "sha256": "1c571d86937df667959ee23faf4a12c5ae804f658bcfd2e480b91e08cbd2b451"
+  },
+  {
+    "path": "03-avatars/discussion-alex.png",
+    "bytes": 19123,
+    "sha256": "e3272fa8dbfa3ce007514ad4ef995e4a2f23f5261e071fd1216a90166a9e2756"
+  },
+  {
+    "path": "03-avatars/discussion-mei.png",
+    "bytes": 17485,
+    "sha256": "3475f336099ec8ebd7a0bd4977a79172767ef2bc0c918accebd6f1abf90676c1"
+  },
+  {
+    "path": "03-avatars/organisateur-alex.png",
+    "bytes": 15135,
+    "sha256": "8d0d5ebeccde71ff444233ee7c11689ed1f28f47cfecba8ac6a4a06e970c1491"
+  },
+  {
+    "path": "03-avatars/organisatrice-mei.png",
+    "bytes": 15974,
+    "sha256": "3b51a156159444fcc1a3c1a9c5585ac2266d701c7a6d1aaea46656026f2c0a98"
+  },
+  {
+    "path": "03-avatars/participant-01.png",
+    "bytes": 5991,
+    "sha256": "f884a8f12157ce15d7488694ce8df068cc4c0758ac35ad9dae4a40dd766684b4"
+  },
+  {
+    "path": "03-avatars/participant-02.png",
+    "bytes": 6104,
+    "sha256": "cf86652d0c987535658fa814c4980205e204e3aabb0b69e016cae06cdeae1337"
+  },
+  {
+    "path": "03-avatars/participant-03.png",
+    "bytes": 6263,
+    "sha256": "a585eef1e94eaf073260c49c53f21d7f64f210e92b690abc3850012e05ee5b23"
+  },
+  {
+    "path": "03-avatars/participant-04.png",
+    "bytes": 6154,
+    "sha256": "02dc8822dd44bcf5995445e6688f920ac2843877acbd73c9ebacbf3a339da242"
+  },
+  {
+    "path": "03-avatars/profil-lea.png",
+    "bytes": 63017,
+    "sha256": "b37af24e29f40bf7e44e7f12a8883ba4e33e8fa10f40db0ddbd803ed13c7ab94"
+  },
+  {
+    "path": "04-logo/catai-navy.svg",
+    "bytes": 280,
+    "sha256": "95e71a2ce42138a38ccb45c029b033edbb800be484d42a1d4611cdea174dfb85"
+  },
+  {
+    "path": "04-logo/catai-white.svg",
+    "bytes": 280,
+    "sha256": "489acdf4ba5686ce180382194860e5ee91fb115e2c49e6dbb11dcc05ca69c9da"
+  },
+  {
+    "path": "04-logo/logo-reference-fond-sombre.png",
+    "bytes": 18003,
+    "sha256": "0c3060893433bb7f8f5f6968e027270e69581082a3971765b2d7d704162efee6"
+  },
+  {
+    "path": "05-icones/arrow-right.svg",
+    "bytes": 199,
+    "sha256": "358d6ff91d82e2920adbb6eb00ca0ca275d88314e19058df66f885852b14291d"
+  },
+  {
+    "path": "05-icones/badge-18-plus.svg",
+    "bytes": 283,
+    "sha256": "62b96e4a356ed28211a9d4644d0a7b245de7e914dbeee0158bcec5b2195e2fe4"
+  },
+  {
+    "path": "05-icones/badge-meet-up.svg",
+    "bytes": 287,
+    "sha256": "753ad57e1d6da237e383f736a8d8989cfa975e2e2074bb1e8f74f7e46970f474"
+  },
+  {
+    "path": "05-icones/book.svg",
+    "bytes": 243,
+    "sha256": "3bd06335194a66edb5a66f7d9077a97732ef27fb1e7f857709e664309917ca75"
+  },
+  {
+    "path": "05-icones/calendar.svg",
+    "bytes": 248,
+    "sha256": "040e0339d59a2593b6773a5a1230eb4f8d0c6efc96d189464dcc8d6634186bfe"
+  },
+  {
+    "path": "05-icones/check.svg",
+    "bytes": 192,
+    "sha256": "f5f9e345bf8ec5b7ac725c53b7477b1e2e3a5cd7a9617eb4c4278abbbf673e67"
+  },
+  {
+    "path": "05-icones/chevron-left.svg",
+    "bytes": 191,
+    "sha256": "6d679f55bc130d35d01641ca80c68bf460ffc219f5a04002d6987e04eebb0ce6"
+  },
+  {
+    "path": "05-icones/chevron-right.svg",
+    "bytes": 190,
+    "sha256": "b54a29b863a62e00cb165b9256efb65fb3ae3c0953ed440dbf7a9f66fef513ba"
+  },
+  {
+    "path": "05-icones/document.svg",
+    "bytes": 217,
+    "sha256": "e6c2be434c2a638282d943d5915d7931289611acac589c72baa337c4a915aa10"
+  },
+  {
+    "path": "05-icones/external-link.svg",
+    "bytes": 256,
+    "sha256": "e1577ead8c57351d20c48b41a06bea12a1b6b9d7e39de9d3fbb3eca8ed69b5ad"
+  },
+  {
+    "path": "05-icones/graduation.svg",
+    "bytes": 229,
+    "sha256": "666e30920a07635affc075ffa43de495c951cabb638c1af15fbed2a0b5285a1b"
+  },
+  {
+    "path": "05-icones/home.svg",
+    "bytes": 236,
+    "sha256": "f61797f8b061f0cd3c50798fd8167881ce9b99d403a6e4173c76e6fd1a0a06c8"
+  },
+  {
+    "path": "05-icones/lock.svg",
+    "bytes": 251,
+    "sha256": "7996e3969d3876f06ab1164f52426cf9f41def09679e75d2f106451f4376528e"
+  },
+  {
+    "path": "05-icones/mail.svg",
+    "bytes": 241,
+    "sha256": "f910ffede4142bd03b8a60355c0cd9c6f9a29afa5f81af3761dba64b37a13d30"
+  },
+  {
+    "path": "05-icones/message.svg",
+    "bytes": 258,
+    "sha256": "88c7ba37885e5f2f9172cf218d2859539ed814ea337e3761cb6cb8aa8b119672"
+  },
+  {
+    "path": "05-icones/pin.svg",
+    "bytes": 257,
+    "sha256": "cebe0c0165c2247a55fd924db57ae13d15177c4ca3a5ce0937987b87dc0931e1"
+  },
+  {
+    "path": "05-icones/play.svg",
+    "bytes": 193,
+    "sha256": "edaf057e9cab48e92a914c5cb95eb59c83892e524443a69f0ebd72c39d6a9f44"
+  },
+  {
+    "path": "05-icones/plus.svg",
+    "bytes": 194,
+    "sha256": "dd8cb64e646321dfa65ef9fbe4969905ffea2c72c943509b17d513297a957911"
+  },
+  {
+    "path": "05-icones/profile.svg",
+    "bytes": 234,
+    "sha256": "22215bee584e756df251ffa3ccc1edd7513c748463be425240f844b563a99f32"
+  },
+  {
+    "path": "05-icones/send.svg",
+    "bytes": 205,
+    "sha256": "02c007dc2b27857491ec91d49c1263c9d891a83aa33492ad2776a40a7cf7258c"
+  },
+  {
+    "path": "05-icones/translation.svg",
+    "bytes": 247,
+    "sha256": "2bf895219cf697caf7d57fb0d8005ccc07686afdcdf878a69210399d1533b3c1"
+  },
+  {
+    "path": "05-icones/users.svg",
+    "bytes": 273,
+    "sha256": "b164a1509cdd1b253df5e58eec644bc690c493c4ad74d1c49a018a4bdf3066a5"
+  },
+  {
+    "path": "06-style/catai-theme.css",
+    "bytes": 373,
+    "sha256": "da044f10cb2dec8424bebe4914de87f7899190258348ae5e991cdadd9a30c35a"
+  },
+  {
+    "path": "06-style/design-tokens.json",
+    "bytes": 803,
+    "sha256": "9fde5fc21c031262fd07f40b1b7226d1d1f2b2f99da2496ff62756794ce59389"
+  },
+  {
+    "path": "07-documentation/decisions-et-parcours.txt",
+    "bytes": 3281,
+    "sha256": "2c106fe19e3f1dfcac84df94090c749c1ca4f0fa00f704cf9eff127c4718a0e3"
+  },
+  {
+    "path": "07-documentation/donnees-exemple.json",
+    "bytes": 2498,
+    "sha256": "acdbdfdb7bad455bb90955e3354d273b042a822ca654a5a9f878872ea751c7ae"
+  },
+  {
+    "path": "07-documentation/inventaire-extractions.json",
+    "bytes": 6990,
+    "sha256": "56d0daef4e1d14ba6afefa9253b7bfcbc4d865a9d76356235d30080a65cacc25"
+  },
+  {
+    "path": "08-source/Catai-App-Plan.pdf",
+    "bytes": 286264,
+    "sha256": "77c263e58d58867f3c0d7f573b5579c4bd0bfb1c58e82c940a28473066e8ce4d"
+  },
+  {
+    "path": "README.txt",
+    "bytes": 2643,
+    "sha256": "ab1e2578a46204d3deb245a142647b3a4ad032f5a3795a1bbaa5fec0811cec7f"
+  },
+  {
+    "path": "archives-anciennes-propositions/ancienne-01-accueil-guides.png",
+    "bytes": 1476466,
+    "sha256": "7d9865f06d547328448e696e7f065af078ad38c7b07f2e31b35de4d4a3696e67"
+  },
+  {
+    "path": "archives-anciennes-propositions/ancienne-02-accueil-deux-choix.png",
+    "bytes": 1997595,
+    "sha256": "1dba06ab6e8d764504849fafad40b0ac8c7f4ec100f1605bc404cc654eaaf2ac"
+  },
+  {
+    "path": "archives-anciennes-propositions/ancienne-03-partys-avec-selecteur.png",
+    "bytes": 1620622,
+    "sha256": "a399b07620d8fc4d736a0bec6600e762f824347a6f3aa35ca47a9f92187f897e"
+  },
+  {
+    "path": "archives-anciennes-propositions/ancienne-04-rencontres-avec-selecteur.png",
+    "bytes": 1783054,
+    "sha256": "c1c4a14f70d3ee8de8d5476f9804a66907b7b9afb8647ec4e016d450be29813c"
+  }
+]

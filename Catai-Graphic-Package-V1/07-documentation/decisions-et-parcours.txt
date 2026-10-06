@@ -1,0 +1,31 @@
+DECISIONS PRODUIT ACTUELLES
+
+Nom : Catai.
+Cible : etudiants locaux et etrangers, avec priorite aux etudiants etrangers qui arrivent.
+Pilote : Quebec, Universite Laval.
+Expansion : Taiwan d abord, pour tous les etudiants etrangers qui arrivent en Asie, quelle que soit leur origine.
+Accueil : exactement deux portes d entree, Partys et Rencontres. Pas de guides ni de menu supplementaire sur cette premiere page.
+Localisation : detection automatique sur le telephone avec permission. Quebec est seulement l exemple des huit maquettes. Taiwan apparait selon la localisation reelle. Ne pas figer Quebec dans le code. Aucun onglet de pays, aucun champ de ville.
+Si la localisation est refusee ou indisponible : expliquer la demande et proposer de reessayer l autorisation, sans inventer une localisation. Le comportement final hors des zones desservies reste a definir.
+Langues : francais, anglais, mandarin.
+Traduction : automatique sur les messages ecrits, dans la langue de lecture de chaque utilisateur. Aucun vocal ni appel en direct dans la premiere version.
+Rencontres : a travers les evenements et leurs discussions de groupe. Pas de messagerie privee entre profils, pas de rencontres amoureuses, pas de swipe.
+Creation d evenements : equipe et ambassadeurs etudiants approuves. Aucun ecran organisateur n a ete dessine dans ce lot.
+Inscription : prenom, photo, universite, langue preferee, courriel universitaire verifie par code. Les exemples des images ne representent pas de comptes verifies reels.
+Age : mineurs autorises dans l app, certains partys reserves aux adultes. Courriel universitaire verifie et age verifie sont deux controles distincts. Methode de controle d age a preciser avant une version reelle.
+Paiements : decision reportee, aucun checkout ni prix a inventer.
+Guides : etapes simples et liens officiels pour demarches universitaires ; couvrir aussi les arrivants a Taiwan lors de l expansion.
+Style : social, photographie dominante, peu de texte, fond sombre et bleu electrique.
+Mode de prototype choisi : maquette cliquable avec donnees d exemple, comptes et traduction simules clairement identifiables dans une future version de demonstration.
+
+PARCOURS
+01 accueil > 02 partys > 04 detail party > 06 inscription si necessaire > verification de courriel (ecran non dessine) > controle d age si necessaire (ecran non dessine) > confirmation de participation > 07 discussion.
+01 accueil > 03 rencontres > 05 detail rencontre > 06 inscription si necessaire > verification de courriel > confirmation de participation > 07 discussion.
+04 ou 05 > lien Demarches universitaires > 08 guides.
+Chaque retour doit conserver le contexte de l evenement.
+La discussion n est accessible qu aux participants, pas aux visiteurs.
+
+COHERENCE
+Les rendus IA comportent parfois des ecarts mineurs : nombre d avatars, pastille +N, nuances de bleu, dessin du logo ou photos d un meme evenement. Pour les composants reels, conserver les comptes 32 et 12 des donnees fournies, calculer le nombre supplementaire d avatars et reutiliser un meme asset par evenement.
+Les dates sont des donnees de demonstration, pas un calendrier reel.
+Les guides officiels doivent etre revus avant publication. Sources de depart : https://www.ulaval.ca/admission et https://admissions.ntu.edu.tw/.

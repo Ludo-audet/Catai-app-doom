@@ -1,0 +1,288 @@
+[
+  {
+    "file": "02-photos/accueil-party.png",
+    "source": "01-maquettes-reference/01-accueil.png",
+    "source_rectangle_pixels": [
+      32,
+      318,
+      909,
+      816
+    ],
+    "width": 877,
+    "height": 498,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "02-photos/accueil-rencontre.png",
+    "source": "01-maquettes-reference/01-accueil.png",
+    "source_rectangle_pixels": [
+      32,
+      984,
+      909,
+      1482
+    ],
+    "width": 877,
+    "height": 498,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "02-photos/party-bienvenue-liste.png",
+    "source": "01-maquettes-reference/02-partys.png",
+    "source_rectangle_pixels": [
+      38,
+      441,
+      905,
+      801
+    ],
+    "width": 867,
+    "height": 360,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "02-photos/soiree-internationale.png",
+    "source": "01-maquettes-reference/02-partys.png",
+    "source_rectangle_pixels": [
+      36,
+      1089,
+      435,
+      1307
+    ],
+    "width": 399,
+    "height": 218,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "02-photos/campus-en-fete.png",
+    "source": "01-maquettes-reference/02-partys.png",
+    "source_rectangle_pixels": [
+      36,
+      1344,
+      435,
+      1526
+    ],
+    "width": 399,
+    "height": 182,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "02-photos/cafe-nouveaux-liste.png",
+    "source": "01-maquettes-reference/03-rencontres.png",
+    "source_rectangle_pixels": [
+      38,
+      452,
+      906,
+      814
+    ],
+    "width": 868,
+    "height": 362,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "02-photos/echange-langues.png",
+    "source": "01-maquettes-reference/03-rencontres.png",
+    "source_rectangle_pixels": [
+      36,
+      1098,
+      434,
+      1278
+    ],
+    "width": 398,
+    "height": 180,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "02-photos/balade-etudiants.png",
+    "source": "01-maquettes-reference/03-rencontres.png",
+    "source_rectangle_pixels": [
+      36,
+      1353,
+      434,
+      1502
+    ],
+    "width": 398,
+    "height": 149,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "02-photos/party-bienvenue-detail.png",
+    "source": "01-maquettes-reference/04-detail-party.png",
+    "source_rectangle_pixels": [
+      27,
+      240,
+      913,
+      623
+    ],
+    "width": 886,
+    "height": 383,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "02-photos/cafe-nouveaux-detail.png",
+    "source": "01-maquettes-reference/05-detail-rencontre.png",
+    "source_rectangle_pixels": [
+      35,
+      232,
+      907,
+      686
+    ],
+    "width": 872,
+    "height": 454,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "02-photos/cafe-discussion-miniature.png",
+    "source": "01-maquettes-reference/07-discussion-traduction.png",
+    "source_rectangle_pixels": [
+      38,
+      122,
+      337,
+      299
+    ],
+    "width": 299,
+    "height": 177,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "02-photos/campus-guide.png",
+    "source": "01-maquettes-reference/08-guides-universitaires.png",
+    "source_rectangle_pixels": [
+      34,
+      317,
+      908,
+      687
+    ],
+    "width": 874,
+    "height": 370,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "03-avatars/profil-lea.png",
+    "source": "01-maquettes-reference/06-inscription.png",
+    "source_rectangle_pixels": [
+      369,
+      363,
+      566,
+      558
+    ],
+    "width": 197,
+    "height": 195,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "03-avatars/organisatrice-mei.png",
+    "source": "01-maquettes-reference/04-detail-party.png",
+    "source_rectangle_pixels": [
+      49,
+      891,
+      148,
+      978
+    ],
+    "width": 99,
+    "height": 87,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "03-avatars/organisateur-alex.png",
+    "source": "01-maquettes-reference/05-detail-rencontre.png",
+    "source_rectangle_pixels": [
+      52,
+      953,
+      155,
+      1030
+    ],
+    "width": 103,
+    "height": 77,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "03-avatars/discussion-mei.png",
+    "source": "01-maquettes-reference/07-discussion-traduction.png",
+    "source_rectangle_pixels": [
+      45,
+      527,
+      148,
+      624
+    ],
+    "width": 103,
+    "height": 97,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "03-avatars/discussion-alex.png",
+    "source": "01-maquettes-reference/07-discussion-traduction.png",
+    "source_rectangle_pixels": [
+      46,
+      774,
+      149,
+      874
+    ],
+    "width": 103,
+    "height": 100,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "03-avatars/participant-01.png",
+    "source": "01-maquettes-reference/04-detail-party.png",
+    "source_rectangle_pixels": [
+      47,
+      1017,
+      96,
+      1078
+    ],
+    "width": 49,
+    "height": 61,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "03-avatars/participant-02.png",
+    "source": "01-maquettes-reference/04-detail-party.png",
+    "source_rectangle_pixels": [
+      103,
+      1017,
+      151,
+      1078
+    ],
+    "width": 48,
+    "height": 61,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "03-avatars/participant-03.png",
+    "source": "01-maquettes-reference/04-detail-party.png",
+    "source_rectangle_pixels": [
+      157,
+      1017,
+      204,
+      1078
+    ],
+    "width": 47,
+    "height": 61,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "03-avatars/participant-04.png",
+    "source": "01-maquettes-reference/04-detail-party.png",
+    "source_rectangle_pixels": [
+      213,
+      1017,
+      262,
+      1078
+    ],
+    "width": 49,
+    "height": 61,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  },
+  {
+    "file": "04-logo/logo-reference-fond-sombre.png",
+    "source": "01-maquettes-reference/01-accueil.png",
+    "source_rectangle_pixels": [
+      352,
+      24,
+      581,
+      88
+    ],
+    "width": 229,
+    "height": 64,
+    "method": "Extraction rectangulaire des pixels existants, sans regeneration."
+  }
+]

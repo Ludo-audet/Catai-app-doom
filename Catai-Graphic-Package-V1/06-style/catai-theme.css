@@ -1,0 +1,13 @@
+:root {
+  --catai-bg: #07111e;
+  --catai-surface: #0d1927;
+  --catai-border: #253449;
+  --catai-blue: #0755ff;
+  --catai-text: #ffffff;
+  --catai-muted: #adbbd4;
+  --catai-font: Arial, Helvetica, sans-serif;
+  --catai-card-radius: 24px;
+  --catai-input-radius: 18px;
+  --catai-pill-radius: 999px;
+}
+/* Repere de style uniquement. Aucun ecran fonctionnel dans ce paquet. */

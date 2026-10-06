@@ -1,0 +1,101 @@
+{
+  "demo": true,
+  "pilot": {
+    "city": "Quebec",
+    "institution": "Universite Laval",
+    "locationMode": "automatic-with-consent"
+  },
+  "languages": [
+    "fr",
+    "en",
+    "zh-Hant"
+  ],
+  "events": [
+    {
+      "id": "party-bienvenue",
+      "kind": "party",
+      "title": "Party de bienvenue",
+      "date": "2026-10-10",
+      "time": "20:00",
+      "city": "Quebec",
+      "place": "Quartier universitaire",
+      "minimumAge": 18,
+      "participants": 32,
+      "organizer": "Mei",
+      "organizerRole": "ambassador",
+      "photo": "02-photos/party-bienvenue-detail.png"
+    },
+    {
+      "id": "soiree-internationale",
+      "kind": "party",
+      "title": "Soiree internationale",
+      "date": "2026-10-17",
+      "time": "21:00",
+      "city": "Quebec",
+      "minimumAge": 18,
+      "photo": "02-photos/soiree-internationale.png"
+    },
+    {
+      "id": "campus-en-fete",
+      "kind": "party",
+      "title": "Campus en fete",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "city": "Quebec",
+      "minimumAge": 18,
+      "photo": "02-photos/campus-en-fete.png"
+    },
+    {
+      "id": "cafe-nouveaux",
+      "kind": "meetup",
+      "title": "Cafe des nouveaux",
+      "date": "2026-10-08",
+      "time": "16:00",
+      "city": "Quebec",
+      "place": "Campus Laval",
+      "minimumAge": null,
+      "participants": 12,
+      "organizer": "Alex",
+      "organizerRole": "ambassador",
+      "photo": "02-photos/cafe-nouveaux-detail.png"
+    },
+    {
+      "id": "echange-langues",
+      "kind": "meetup",
+      "title": "Echange de langues",
+      "date": "2026-10-12",
+      "time": "17:00",
+      "city": "Quebec",
+      "photo": "02-photos/echange-langues.png"
+    },
+    {
+      "id": "balade-etudiants",
+      "kind": "meetup",
+      "title": "Balade entre etudiants",
+      "date": "2026-10-14",
+      "time": "14:00",
+      "city": "Quebec",
+      "photo": "02-photos/balade-etudiants.png"
+    }
+  ],
+  "chatExamples": [
+    {
+      "sender": "Mei",
+      "sourceLanguage": "zh-Hant",
+      "source": "大家好！我剛到魁北克。",
+      "translations": {
+        "fr": "Salut ! Je viens d’arriver à Québec.",
+        "en": "Hi! I just arrived in Quebec City."
+      }
+    },
+    {
+      "sender": "Alex",
+      "sourceLanguage": "en",
+      "source": "Let’s meet at the café at 4 pm.",
+      "translations": {
+        "fr": "On se retrouve au café à 16 h.",
+        "zh-Hant": "我們下午四點在咖啡館見。"
+      }
+    }
+  ]
+}

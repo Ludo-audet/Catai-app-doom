@@ -116,8 +116,10 @@ export function profileForm(mode, eventId) {
   function mount(root, rerender, navigate) {
     const form = root.querySelector('form');
     let currentPhoto = values.photo;
+    let pendingPhoto = Promise.resolve();
     const input = form.querySelector('#f-photo');
-    input.addEventListener('change', async () => {
+    input.addEventListener('change', () => { pendingPhoto = loadPhoto(); });
+    async function loadPhoto() {
       const err = form.querySelector('[data-error="photo"]');
       try {
         currentPhoto = await readPhoto(input.files[0]);
@@ -129,9 +131,11 @@ export function profileForm(mode, eventId) {
       } catch {
         err.textContent = 'Ce fichier n’est pas une image lisible. Choisis une photo.';
       }
-    });
-    form.addEventListener('submit', (e) => {
+    }
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
+      // Une photo choisie juste avant l'envoi est peut-être encore en préparation.
+      await pendingPhoto;
       const fd = new FormData(form);
       const next = {
         firstName: String(fd.get('firstName') || '').trim(),

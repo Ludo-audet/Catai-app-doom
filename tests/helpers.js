@@ -37,6 +37,7 @@ export async function setToday(page) {
 
 export async function createProfile(page, { name = 'Léa', email = 'lea@ulaval.ca' } = {}) {
   await page.setInputFiles('[data-testid="photo-input"]', 'Catai-Graphic-Package-V1/03-avatars/profil-lea.png');
+  await page.getByTestId('photo-preview').waitFor();
   await page.getByLabel('Prénom').fill(name);
   await page.getByLabel('Courriel universitaire').fill(email);
   await page.getByRole('button', { name: 'Recevoir mon code' }).click();

@@ -5,6 +5,8 @@
   --catai-blue-line: #1d3f86;
   --catai-danger: #ff8a8a;
   --gutter: 16px;
+  /* Titres : graisse maximale de la pile Arial, plus proche du rendu des maquettes. */
+  --catai-display: 'Arial Black', 'Arial Bold', Arial, Helvetica, sans-serif;
   --tabbar-h: 64px;
   color-scheme: dark;
 }
@@ -26,6 +28,7 @@ a { color: inherit; }
 button, input, select { font: inherit; color: inherit; }
 h1, h2, h3, p { margin: 0; }
 [tabindex="-1"]:focus { outline: none; }
+.home__title, .page__title, .entry-card__label, .event-card__title, .chat-head__title, .card__title { font-family: var(--catai-display); font-weight: 900; letter-spacing: -0.03em; overflow-wrap: break-word; text-wrap: balance; }
 :focus-visible { outline: 3px solid #6f9bff; outline-offset: 2px; }
 
 .visually-hidden {
@@ -80,7 +83,7 @@ h1, h2, h3, p { margin: 0; }
 }
 .entry-card__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transition: transform .4s ease; }
 .entry-card::after { content: ""; position: absolute; inset: 40% 0 0; background: linear-gradient(transparent, rgba(5, 10, 20, .85)); z-index: -1; }
-.entry-card__label { position: absolute; left: 18px; bottom: 16px; font-size: clamp(30px, 9.5vw, 44px); font-weight: 900; letter-spacing: -0.5px; text-shadow: 0 2px 12px rgba(0,0,0,.5); }
+.entry-card__label { position: absolute; left: 18px; right: 76px; bottom: 18px; font-size: clamp(26px, 8vw, 44px); line-height: 1; font-weight: 900; letter-spacing: -0.5px; text-shadow: 0 2px 12px rgba(0,0,0,.5); }
 .entry-card__go {
   position: absolute; right: 14px; bottom: 14px; width: 48px; height: 48px; border-radius: 50%;
   background: var(--catai-blue); display: grid; place-items: center;
@@ -137,7 +140,8 @@ h1, h2, h3, p { margin: 0; }
 .event-card__body { padding: 12px 14px 14px; }
 .event-card__title { font-size: 22px; font-weight: 800; }
 .event-card__meta { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 8px 0 10px; }
-.event-card__foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.event-card__foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.event-card__foot .btn { margin-left: auto; }
 .event-card__foot .btn--sm { padding: 0 14px; font-size: 15px; white-space: nowrap; }
 .meta { display: inline-flex; align-items: center; gap: 8px; font-size: 15px; color: #e7edf7; }
 .meta--muted { color: var(--catai-muted); }

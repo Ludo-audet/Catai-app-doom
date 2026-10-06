@@ -173,6 +173,10 @@ export function profileForm(mode, eventId) {
   function onState(root) {
     const slot = root.querySelector('[data-slot="loc-info"]');
     if (slot) slot.innerHTML = locationInfo();
+    // La zone peut être détectée après l'affichage du formulaire : proposer alors son université.
+    const university = root.querySelector('#f-university');
+    const detected = locator.zone();
+    if (university && !university.value.trim() && detected) university.value = detected.institution;
   }
 
   return { html, mount, onState };

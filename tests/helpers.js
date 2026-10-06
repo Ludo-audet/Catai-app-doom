@@ -36,6 +36,8 @@ export async function setToday(page) {
 }
 
 export async function createProfile(page, { name = 'Léa', email = 'lea@ulaval.ca' } = {}) {
+  // Attendre la zone détectée, qui préremplit l'université.
+  await page.getByTestId('loc-info').getByText('détectée').waitFor();
   await page.setInputFiles('[data-testid="photo-input"]', 'Catai-Graphic-Package-V1/03-avatars/profil-lea.png');
   await page.getByTestId('photo-preview').waitFor();
   await page.getByLabel('Prénom').fill(name);

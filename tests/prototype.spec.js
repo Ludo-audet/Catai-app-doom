@@ -131,6 +131,12 @@ test.describe('inscription et participation', () => {
     await expect(page.getByText('Rejoins l’événement pour ouvrir sa discussion.')).toBeVisible();
   });
 
+  test('l’université est proposée quand la zone est détectée après l’ouverture du formulaire', async ({ page }) => {
+    await page.goto('/#/inscription');
+    await expect(page.getByTestId('loc-info')).toContainText('Québec détectée');
+    await expect(page.getByLabel('Université')).toHaveValue('Université Laval');
+  });
+
   test('un profil existant rejoint directement un autre événement', async ({ page }) => {
     await page.goto('/#/evenement/cafe-nouveaux');
     await page.getByRole('button', { name: 'Rejoindre la rencontre' }).click();
